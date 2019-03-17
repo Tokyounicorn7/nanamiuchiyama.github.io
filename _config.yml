@@ -40,8 +40,8 @@ author:
 
 # Pagination settings
 pagination:
-  enabled: true
-  debug: false
+  enabled: false
+  debug: true
   per_page: 12
   permalink: '/page/:num/'
   title: ':title'
@@ -64,10 +64,10 @@ autopages:
       cased: true
 
 # Build settings
-markdown: kramdown
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+# markdown: kramdown
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
 compress_html:
   clippings: all
   comments: all
